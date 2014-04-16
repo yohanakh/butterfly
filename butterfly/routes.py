@@ -70,10 +70,7 @@ X
         .replace('Z', '\x1b[33;1m')
         .replace('A', '\x1b[37;0m')
         .replace('X', '\x1b[0m')
-        .replace('\n', '\r\n')
-        % (__version__,
-           '%s:%d' % (socket.local_addr, socket.local_port),
-           '%s:%d' % (socket.remote_addr, socket.remote_port)))
+        .replace('\n', '\r\n'))
 
 
 @url(r'/(?:user/(.+))?/?(?:wd/(.+))?')
