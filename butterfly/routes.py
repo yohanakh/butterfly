@@ -51,25 +51,6 @@ def u(s):
 def motd(socket):
     return (
 '''
-B                   `         '
-   ;,,,             `       '             ,,,;
-   `Y888888bo.       :     :       .od888888Y'
-     8888888888b.     :   :     .d8888888888
-     88888Y'  `Y8b.   `   '   .d8Y'  `Y88888
-    j88888  R.db.B  Yb. '   ' .dY  R.db.B  88888k
-      `888  RY88YB    `b ( ) d'    RY88YB  888'
-       888b  R'"B        ,',        R"'B  d888
-      j888888bd8gf"'   ':'   `"?g8bd888888k
-        R'Y'B   .8'     d' 'b     '8.   R'Y'X
-         R!B   .8' RdbB  d'; ;`b  RdbB '8.   R!B
-            d88  R`'B  8 ; ; 8  R`'B  88b             Rbutterfly Zv %sB
-           d888b   .g8 ',' 8g.   d888b
-          :888888888Y'     'Y888888888:           AConnecting to:B
-          '! 8888888'       `8888888 !'              G%sB
-             '8Y  R`Y         Y'B  Y8'
-R              Y                   Y               AFrom:R
-              !                   !                  G%sX
-
 
 Booooooo  ooooo       .o.       ooooooooo.
  `8888    d8'       .888.      `888   `Y88.
